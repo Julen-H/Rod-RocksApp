@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".TrophyViewHolder">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="#FF9800"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/trophyNameHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trophyNameHolder"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/fishSizeHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fishSizeHolder"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/trophyLocationHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trophyLocationHolder"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/trophyDescriptionHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trophyDescriptionHolder"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:text="@string/shareButton"
+            app:cornerRadius="5dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rod&amp;Rocks</string>
+    <string name="userLoginText">Nombre de usuario</string>
+    <string name="passwordLoginText">Contraseña</string>
+    <string name="loginButton">Acceder</string>
+    <string name="signUpText">Crea una cuenta aqui</string>
+    <string name="goToSignUp">Registrarse</string>
+    <string name="usernameSignUp">Nombre de usuario</string>
+    <string name="passwordSignUp">Contraseña</string>
+    <string name="emailSignUp">Correo</string>
+    <string name="signUpButton">Registrarse</string>
+    <string name="backLogButton">Volver a acceso</string>
+    <string name="createZoneBtn">Crear una Zona de Pesca</string>
+    <string name="showZonesBtn">Ver Zonas de Pesca</string>
+    <string name="createTrophyBtn">Crear un Trofeo de Pesca</string>
+    <string name="showTrophiesBtn">Ver Trofeos de Pesca</string>
+    <string name="settingsBtn">Ajustes</string>
+    <string name="showBtn">Ver</string>
+    <string name="addZoneName">Nombre de la Zona</string>
+    <string name="townNameAdd">Nombre de la Localidad</string>
+    <string name="waterTypeAdd">Tipo de Agua(Fluvial/Maritima)</string>
+    <string name="descriptionAdd">Descripción de la Zona</string>
+    <string name="addZoneBtn">Añadir</string>
+    <string name="backToHomeBtn">Volver al Menu</string>
+    <string name="fishNameAdd">Nombre del Pez</string>
+    <string name="fishSizeAdd">Tamaño del Pez (kg)</string>
+    <string name="locationAdd">Localización</string>
+    <string name="descriptionTrophyAdd">Descripción</string>
+    <string name="addTrophyBtn">Añadir</string>
+    <string name="backHomeBtn">Volver</string>
+    <string name="zoneNameRecycler">Nombre de la Zona:</string>
+    <string name="townNameRecycler">Nombre de la Localidad:</string>
+    <string name="waterTypeRecycler">Tipo de Agua:</string>
+    <string name="descriptionRecycler">Descripción:</string>
+    <string name="showMapsBtn">Ver En Maps</string>
+    <string name="trophyNameHolder">Nombre del Trofeo:</string>
+    <string name="fishSizeHolder">Tamaño del Pez:</string>
+    <string name="trophyLocationHolder">Ubicación del Trofeo:</string>
+    <string name="trophyDescriptionHolder">Descripción del Trofeo:</string>
+    <string name="showPwdBtn">Ver</string>
+    <string name="welcomeHome">Bienvenido A Casa Pescador</string>
+    <string name="selectLanguage">Selecciona Un Idioma:</string>
+    <string name="shareButton">Compartir</string>
+</resources>

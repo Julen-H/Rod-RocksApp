@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FishingZoneViewHolder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp">
+
+
+        <TextView
+            android:id="@+id/zoneNameRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zoneNameRecycler"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/townNameRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/townNameRecycler"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/waterTypeRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/waterTypeRecycler"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/descriptionRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descriptionRecycler"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/showMapsBtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:text="@string/showMapsBtn"
+            app:cornerRadius="5dp" />
+
+    </LinearLayout>
+</FrameLayout>

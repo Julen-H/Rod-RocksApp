@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rod&amp;Rocks</string>
+    <string name="userLoginText">Erabiltzaile izena</string>
+    <string name="passwordLoginText">Pasahitza</string>
+    <string name="loginButton">Sartu</string>
+    <string name="signUpText">Sortu kontu bat hemen</string>
+    <string name="goToSignUp">Erregistratu</string>
+    <string name="usernameSignUp">Erabiltzaile izena</string>
+    <string name="passwordSignUp">Pasahitza</string>
+    <string name="emailSignUp">Posta</string>
+    <string name="signUpButton">Erregistratu</string>
+    <string name="backLogButton">Sarbidera itzuli</string>
+    <string name="createZoneBtn">Arrantza Zonalde bat sortu</string>
+    <string name="showZonesBtn">Arrantza Zonaldeak Ikusi</string>
+    <string name="createTrophyBtn">Arrantza Garaikur bat Sortu</string>
+    <string name="showTrophiesBtn">Arrantza Garaikurrak Ikusi</string>
+    <string name="settingsBtn">Konfigurazioa</string>
+    <string name="showBtn">Ikusi</string>
+    <string name="addZoneName">Zonaldearen Izena</string>
+    <string name="townNameAdd">Herriaren edo Hiriaren Izena</string>
+    <string name="waterTypeAdd">Ur Mota(Geza/Gazia)</string>
+    <string name="descriptionAdd">Zonaldearen Deskribapena</string>
+    <string name="addZoneBtn">Gehitu</string>
+    <string name="backToHomeBtn">Bueltatu</string>
+    <string name="fishNameAdd">Arrainaren Izena</string>
+    <string name="fishSizeAdd">Arrainaren Tamaina (kg)</string>
+    <string name="locationAdd">Kokapena</string>
+    <string name="descriptionTrophyAdd">Deskripzioa</string>
+    <string name="addTrophyBtn">Gehitu</string>
+    <string name="backHomeBtn">Atzera</string>
+    <string name="zoneNameRecycler">"Zonaldearen izena: "</string>
+    <string name="townNameRecycler">"Herriaren Izena: "</string>
+    <string name="waterTypeRecycler">Ur Mota:</string>
+    <string name="descriptionRecycler">Deskribapena:</string>
+    <string name="showMapsBtn">Maps-en Erakutsi</string>
+    <string name="trophyNameHolder">Garaikurraren izena:</string>
+    <string name="fishSizeHolder">Arrainaren Tamaina:</string>
+    <string name="trophyLocationHolder">Garaikurraren Kokapena:</string>
+    <string name="trophyDescriptionHolder">Garaikurraren Deskribapena:</string>
+    <string name="showPwdBtn">Ikusi</string>
+    <string name="welcomeHome">Ongi Etorri Etxera Arrantzale</string>
+    <string name="selectLanguage">Aukeratu Hizkuntza Bat:</string>
+    <string name="shareButton">Partekatu</string>
+</resources>

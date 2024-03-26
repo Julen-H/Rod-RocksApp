@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="herrero.julen.rodrocks.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="herrero.julen.rodrocks.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_createZoneFragment"
+            app:destination="@id/createZoneFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_createTrophyFragment"
+            app:destination="@id/createTrophyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fishingZoneRecycler"
+            app:destination="@id/fishingZoneRecycler" />
+        <action
+            android:id="@+id/action_homeFragment_to_trophyRecycler"
+            app:destination="@id/trophyRecycler" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="herrero.julen.rodrocks.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createZoneFragment"
+        android:name="herrero.julen.rodrocks.CreateZoneFragment"
+        android:label="fragment_create_zone"
+        tools:layout="@layout/fragment_create_zone" >
+        <action
+            android:id="@+id/action_createZoneFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createTrophyFragment"
+        android:name="herrero.julen.rodrocks.CreateTrophyFragment"
+        android:label="fragment_create_trophy"
+        tools:layout="@layout/fragment_create_trophy" >
+        <action
+            android:id="@+id/action_createTrophyFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fishingZoneRecycler"
+        android:name="herrero.julen.rodrocks.FishingZoneRecycler"
+        android:label="fragment_fishing_zone_recycler"
+        tools:layout="@layout/fragment_fishing_zone_recycler" />
+    <fragment
+        android:id="@+id/fishingZoneViewHolder"
+        android:name="herrero.julen.rodrocks.FishingZoneViewHolder"
+        android:label="fragment_fishing_zone_view_holder"
+        tools:layout="@layout/fragment_fishing_zone_view_holder" />
+    <fragment
+        android:id="@+id/trophyRecycler"
+        android:name="herrero.julen.rodrocks.TrophyRecycler"
+        android:label="fragment_trophy_recycler"
+        tools:layout="@layout/fragment_trophy_recycler" />
+    <fragment
+        android:id="@+id/trophyViewHolder"
+        android:name="herrero.julen.rodrocks.TrophyViewHolder"
+        android:label="fragment_trophy_view_holder"
+        tools:layout="@layout/fragment_trophy_view_holder" />
+</navigation>

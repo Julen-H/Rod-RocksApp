@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateZoneFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="309dp"
+            android:layout_height="258dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="33dp"
+            android:src="@drawable/rod_rockslogo"
+            app:layout_constraintBottom_toTopOf="@+id/addZoneName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/addZoneName"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="13dp"
+            android:ems="10"
+            android:hint="@string/addZoneName"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/townNameAdd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <EditText
+            android:id="@+id/townNameAdd"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="14dp"
+            android:ems="10"
+            android:hint="@string/townNameAdd"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/waterTypeAdd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addZoneName" />
+
+        <EditText
+            android:id="@+id/waterTypeAdd"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="14dp"
+            android:ems="10"
+            android:hint="@string/waterTypeAdd"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/descriptionAdd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/townNameAdd" />
+
+        <Button
+            android:id="@+id/addZoneBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="59dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/addZoneBtn"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/backToHomeBtn"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionAdd" />
+
+        <EditText
+            android:id="@+id/descriptionAdd"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="17dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/descriptionAdd"
+            android:inputType="textMultiLine"
+            app:layout_constraintBottom_toTopOf="@+id/addZoneBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/waterTypeAdd" />
+
+        <Button
+            android:id="@+id/backToHomeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="22dp"
+            android:text="@string/backToHomeBtn"
+            app:cornerRadius="5dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/addZoneBtn"
+            app:layout_constraintEnd_toStartOf="@+id/addZoneBtn"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

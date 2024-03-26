@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/emailSignUp"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="97dp"
+            android:layout_marginBottom="22dp"
+            android:ems="10"
+            android:hint="@string/emailSignUp"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/signUpButton"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/passwordSignUp"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="11dp"
+            android:ems="10"
+            android:hint="@string/passwordSignUp"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toTopOf="@+id/emailSignUp"
+            app:layout_constraintEnd_toStartOf="@+id/showPwdBtn" />
+
+        <Button
+            android:id="@+id/showPwdBtn"
+            android:layout_width="72dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="172dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="191dp"
+            android:text="@string/showPwdBtn"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/usernameSignUp"
+            android:layout_width="300dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="97dp"
+            android:layout_marginBottom="14dp"
+            android:ems="10"
+            android:hint="@string/usernameSignUp"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/passwordSignUp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="120dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="97dp"
+            android:layout_marginBottom="62dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/signUpButton"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/backLogButton" />
+
+        <Button
+            android:id="@+id/backLogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="62dp"
+            android:text="@string/backLogButton"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="304dp"
+            android:layout_height="272dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginBottom="70dp"
+            android:src="@drawable/rod_rockslogo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

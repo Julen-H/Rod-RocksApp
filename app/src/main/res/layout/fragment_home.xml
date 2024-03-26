@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/showTrophiesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/showTrophiesBtn"
+            android:textSize="18dp"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/selectLanguage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createTrophyBtn" />
+
+        <Button
+            android:id="@+id/createZoneBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/createZoneBtn"
+            android:textSize="18dp"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/showZonesBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeHome" />
+
+        <Button
+            android:id="@+id/createTrophyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/createTrophyBtn"
+            android:textSize="18dp"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/showTrophiesBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/showZonesBtn" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="320dp"
+            android:layout_height="245dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/rod_rockslogo"
+            app:layout_constraintBottom_toTopOf="@+id/welcomeHome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/showZonesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FF9800"
+            android:text="@string/showZonesBtn"
+            android:textSize="18dp"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/createTrophyBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/createZoneBtn" />
+
+        <TextView
+            android:id="@+id/welcomeHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="11dp"
+            android:text="@string/welcomeHome"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/createZoneBtn"
+            app:layout_constraintEnd_toEndOf="@+id/createZoneBtn"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <Spinner
+            android:id="@+id/languageSpinner"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="43dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/showTrophiesBtn"
+            app:layout_constraintStart_toStartOf="@+id/selectLanguage"
+            app:layout_constraintTop_toBottomOf="@+id/selectLanguage" />
+
+        <TextView
+            android:id="@+id/selectLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="36dp"
+            android:text="@string/selectLanguage"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/languageSpinner"
+            app:layout_constraintEnd_toEndOf="@+id/showTrophiesBtn"
+            app:layout_constraintTop_toBottomOf="@+id/showTrophiesBtn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

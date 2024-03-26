@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rod&amp;Rocks</string>
+    <string name="userLoginText">Username</string>
+    <string name="passwordLoginText">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="signUpText">Create an account here</string>
+    <string name="goToSignUp">SignUp</string>
+    <string name="usernameSignUp">Username</string>
+    <string name="passwordSignUp">Password</string>
+    <string name="emailSignUp">Email</string>
+    <string name="signUpButton">SignUp</string>
+    <string name="backLogButton">Back to Login</string>
+    <string name="createZoneBtn">Create a Fishing Zone</string>
+    <string name="showZonesBtn">See Fishing Zones</string>
+    <string name="createTrophyBtn">Create a Fishing Trophy</string>
+    <string name="showTrophiesBtn">See Fishing Trophies</string>
+    <string name="settingsBtn">Settings</string>
+    <string name="showBtn">See</string>
+    <string name="addZoneName">Zone Name</string>
+    <string name="townNameAdd">Town or City Name</string>
+    <string name="waterTypeAdd">Water Type (Fluvial/Maritime)</string>
+    <string name="descriptionAdd">Description of the Zone</string>
+    <string name="addZoneBtn">Add Zone</string>
+    <string name="backToHomeBtn">Back to Home</string>
+    <string name="fishNameAdd">Fish Name</string>
+    <string name="fishSizeAdd">Fish Size (kg)</string>
+    <string name="locationAdd">Location</string>
+    <string name="descriptionTrophyAdd">Description</string>
+    <string name="addTrophyBtn">Add Trophy</string>
+    <string name="backHomeBtn">Back</string>
+    <string name="zoneNameRecycler">"Zone Name: "</string>
+    <string name="townNameRecycler">"Town Name: "</string>
+    <string name="waterTypeRecycler">Water Type:</string>
+    <string name="descriptionRecycler">Description:</string>
+    <string name="showMapsBtn">Show On Maps</string>
+    <string name="trophyNameHolder">Trophy Name:</string>
+    <string name="fishSizeHolder">Fish Size:</string>
+    <string name="trophyLocationHolder">Location of the Trophy:</string>
+    <string name="trophyDescriptionHolder">Trophy Description:</string>
+    <string name="showPwdBtn">See</string>
+    <string name="welcomeHome">Welcome Home Fisherman</string>
+    <string name="selectLanguage">Select a Language:</string>
+    <string name="shareButton">Share</string>
+</resources>
